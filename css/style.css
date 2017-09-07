@@ -523,3 +523,7 @@ p,a {
 display: inline;
 padding: 100px;
 }
+.container li {
+  display: inline;
+  padding: ;
+}
