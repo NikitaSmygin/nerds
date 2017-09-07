@@ -493,9 +493,8 @@ p,a {
 }
 
 .main-navigation li {
-  display: inline-block;
+  display: inline;
   padding: 47px;
-  list-style: none;
 }
 
  .main-navigation li:last-child{
@@ -520,11 +519,11 @@ p,a {
   width: 541px;
   height: 133px;
 }
-.catalog .catalog-item {
-display: inline;
+.catalog > section {
+display: inline-block;
 padding: 100px;
 }
-.container li {
+.container > li {
   display: inline-block;
   list-style: none;
   padding: ;
