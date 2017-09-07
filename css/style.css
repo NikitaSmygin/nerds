@@ -493,7 +493,7 @@ p,a {
 }
 
 .main-navigation li {
-  display: inline;
+  display: inline-block;
   padding: 47px
 }
 
@@ -524,6 +524,6 @@ display: inline;
 padding: 100px;
 }
 .container li {
-  display: inline;
+  display: inline-block;
   padding: ;
 }
