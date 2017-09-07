@@ -494,7 +494,8 @@ p,a {
 
 .main-navigation li {
   display: inline-block;
-  padding: 47px
+  padding: 47px;
+  list-style: none;
 }
 
  .main-navigation li:last-child{
@@ -525,5 +526,6 @@ padding: 100px;
 }
 .container li {
   display: inline-block;
+  list-style: none;
   padding: ;
 }
