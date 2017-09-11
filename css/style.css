@@ -447,21 +447,38 @@ template {
 }
 
 
-body {
-  width: 1440px;
-}
+
 header {
-  padding-top: 49px;
-  padding-left: 140px;
   width: 1440px;
-  height: 544px;
+  height: 545px;
   background-color: #eeeeee;
-  box-sizing: border-box; 
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-left: 140px;
+  
+  background-image: url(../images/slide1.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+        
+}
+.sliders {
+  height: 445px;
+  box-sizing: border-box;
+}
+figure {
+  margin: 0px;
+}
+main {
+  width: 1440px;
+  background-color: white;
+  box-sizing: border-box;
+  padding-top: 80px;
+  padding-left: 140px;
 }
 h1 {
   font-family: "Roboto", Arial, Helvetica, sans-serif, "San Francisco" ;
   font-size: 55px ;
-  font-weight: 700 ;
+  font-weight: 500 ;
   line-height: calc(60px/55px);
 }
 h2,span {
@@ -485,46 +502,161 @@ h4 {
   line-height: calc(60px/16px);
   text-transform: uppercase;
 }
-p,a {
+p {
   font-family: "Roboto", Arial, Helvetica, sans-serif, "San Francisco";
   font-size: 16px;
   font-weight: 300;
+}
+a {
+  font-family: "Roboto", Arial, Helvetica, sans-serif, "San Francisco";
+  font-size: 16px;
+  font-weight: 500;
   line-height: calc(60px/16px);
+  text-decoration: none;
+  text-transform: uppercase;
+  color:black;
+}
+.description p {
+  font-family: "RobotoRegular", Arial, Helvetica, sans-serif,"San Francisco";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: calc(60px/16px);
+  text-transform: none;
+  color: #d6d6d6;
 }
 
 .main-navigation li {
   display: inline;
   padding: 47px;
+  vertical-align: middle;
 }
 
  .main-navigation li:last-child{
   padding-left: 245px;
 }
+.info {
+  width: 380px;
+  height: 270px;
+  word-wrap: break-word; /* сначала хотел сделать перенос строки с помощью </br> */ 
+  }
 
-.item-1 {
-  background-image: url(../images/slide1.png);
-  width: 698px;
-  height: 413px;
+.slider-control {
+  display: inline;
+  padding-left: 500px;
 }
 
+.item-1 a {                       
+  background-color: #fb565a;
+  border-radius: 2px;
+  top: 40px;
+  color: white;
+  padding: 20px 40px;
+  position: relative;
+}
+/* или так .item-1 a { 
+  background-color: #fb565a;
+  border-radius: 2px;
+  display: block;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  top: 40px;
+  color: white;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  padding: 15px;
+ }
+ */
+
 .item-2 {
-  display:none;
+  visibility: hidden;
   background-image: url(../images/slide2.png);
   width: 663px;
   height: 115px;
 }
 .item-3 {
-  display:none;
+  visibility: hidden;
   background-image: url(../images/slide3.png);
   width: 541px;
   height: 133px;
 }
+.catalog-items a {
+  border-radius: 2px;
+  padding: 20px 40px;
+  position: relative;
+  top: 40px;
+  color: white;
+  text-transform: uppercase;
+}
+.web a {
+  background-color: #fb565a;
+}
+.app a {
+  background-color: #00ca74;
+}
+.presentations a {
+  background-color: #efc849;
+}
 .catalog-item {
 display: inline-block;
-padding: 100px;
+width: 300px;
+height: 350px;
+padding: 50px
+
 }
-.container > li {
+.catalog-item .description {
+  position: absolute;
+  top: 346px;
+  width: 360px;
+  height: 230px;
+  background-color: #eeeeee;
+}
+.block-2 {
+  border-top: 3px solid #eeeeee;
+  
+}
+.desc {
+  word-wrap: break-word;
+  float: left;
   display: inline-block;
+  width: 65%;
+}
+.features {
+  float: right;
+  display: inline-block;
+  width: 30%;
+}
+.row {
+  display: inline-block;
+  border: 2px solid #eeeeee;
+  border-right: none;
+  border-left: none;
+  margin: 100px 0px;
+  padding: 30px 0px;
+  height: 100px;
+}
+.row li {
+  display: inline;
   list-style: none;
-  padding: ;
+  padding: 0px 70px;
+  border-right: 2px solid #eeeeee;
+  }
+.filter {
+  display: inline-block;
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+  
+}
+.catalog {
+  display: inline-block;
+  float: right;
+  width: 80%;
+  box-sizing: border-box;
+}
+.index-logo img {
+  vertical-align: middle;
+}
+li .active {
+  border-bottom: 3px solid #fb565a;
 }
