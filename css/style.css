@@ -577,15 +577,7 @@ button.active {
   padding: 50px 250px;
 }
 
-
-
-
-
-
-
-
-
-
+/*слайдер*/
 
 .wrapper {
 	height: 413px;
@@ -668,20 +660,6 @@ button.active {
 	width: 12px;
 	border-radius: 50%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .slides a {                       
   background-color: #fb565a;
