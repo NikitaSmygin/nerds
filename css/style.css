@@ -448,6 +448,7 @@ template {
 
 
 
+
 header {
   width: 1440px;
   height: 545px;
@@ -517,7 +518,28 @@ a {
   font-weight: 300;
   line-height: calc(60px/16px);
   text-transform: none;
-  color: #d6d6d6;
+  padding: 5px 90px;
+  color: #666666;
+}
+.catalog-item .description {
+  position: relative;
+  top: -252px;
+  width: 360px;
+  height: 230px;
+  background-color: #eeeeee;
+}
+.description a {
+  background-color: #fb565a;
+  border-radius: 2px;
+  top: 40px;
+  color: white;
+  padding: 15px 50px;
+  position: relative;
+  left: 90px;
+}
+
+.description h3 {
+  padding: 30px 140px 5px;
 }
 .main-header .container {
   position: relative;
