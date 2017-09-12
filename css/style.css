@@ -703,18 +703,6 @@ button.active {
  }
  */
 
-.item-2 {
-  visibility: hidden;
-  background-image: url(../images/slide2.png);
-  width: 663px;
-  height: 115px;
-}
-.item-3 {
-  visibility: hidden;
-  background-image: url(../images/slide3.png);
-  width: 541px;
-  height: 133px;
-}
 .catalog-items a {
   border-radius: 2px;
   padding: 20px 40px;
