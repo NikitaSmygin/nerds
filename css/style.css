@@ -519,7 +519,10 @@ a {
   text-transform: none;
   color: #d6d6d6;
 }
-
+.main-header .container {
+  position: relative;
+  z-index: 1;
+}
 .main-navigation li {
   display: inline;
   padding: 47px;
