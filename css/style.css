@@ -599,6 +599,7 @@ h5 {
   top: 515px;
 }
 
+
 .catalog-items {
 	margin-top: 70px;
 	border-bottom: 2px solid #eee;
@@ -847,13 +848,12 @@ aside {
 	text-align: center;
 }
 
-<<<<<<< HEAD
 .price label {
 	font-weight: 400;
 	font-size: 18px;
 	color: #283136;
 	text-transform: uppercase;
-=======
+}
 header {
   width: 1440px;
   height: 545px;
@@ -861,14 +861,13 @@ header {
   box-sizing: border-box;
   padding-top: 50px;
   padding-left: 140px;
-  
+} 
   
   /* background-image: url(../images/slide1.png);
   background-repeat: no-repeat;
   background-position: right bottom; */
         
->>>>>>> 2121d271ab3df56e89185b0648b9b791f9776250
-}
+
 .group label {
 	color: #283136;
 }
@@ -935,8 +934,6 @@ header {
 .sorting button.active {
 	color: #000;
 }
-<<<<<<< HEAD
-
 
 .title {
 	width: 360px;
@@ -967,7 +964,7 @@ header {
 	height: 230px;
 	text-align: center;
 	background-color: #eee;
-=======
+}
 .info {
   position: absolute;
   left: -400px;
@@ -1120,7 +1117,6 @@ button.active {
   top: 40px;
   color: white;
   text-transform: uppercase;
->>>>>>> 2121d271ab3df56e89185b0648b9b791f9776250
 }
 .description .button {
 	cursor: pointer;
@@ -1140,7 +1136,6 @@ button.active {
 	width: 760px;
 	float: right;
 }
-<<<<<<< HEAD
 .store-item {
 	width: 360px;
 	position: relative;
@@ -1148,7 +1143,7 @@ button.active {
 }
 .store-item:nth-child(odd) {
 	float: left;
-=======
+}
 .catalog-item .description {
   position: relative;
   top: -252px;
@@ -1174,9 +1169,7 @@ button.active {
 }
 .block-2 {
   border-top: 3px solid #eeeeee;
-  
->>>>>>> 2121d271ab3df56e89185b0648b9b791f9776250
-}
+  }
 .store-item:nth-child(even) {
 	float: right;
 }
