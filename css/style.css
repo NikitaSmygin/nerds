@@ -1192,4 +1192,54 @@ button.active {
 	display: table;
 	clear: both;
 }
-
+.range-filter {
+  width: 80%;
+}
+.range-controls {
+  position: relative;
+  height: 41px;
+  padding-top: 39px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+.range-controls .scale {
+  height: 2px;
+  background: #d7dcde;
+}
+.range-controls .bar {
+  width: 70%;
+  height: 2px;
+  background: #5CDD5C;
+}
+.range-controls .change {
+  position: absolute;
+  top: 30px;
+  left: 2px;
+  width: 4px;
+  height: 4px;
+  cursor: pointer;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  background: #A1A1A1;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+}
+.range-controls .change-min {
+  left: 20%;
+}
+.range-controls .change-max {
+  left: 45%;
+}
+.price-controls {
+  font-size: 0;
+}
+.price-controls label {
+  font-size: 16px;
+  display: inline-block;
+  width: 50%;
+}
+.max-price {
+  text-align: right;
+}

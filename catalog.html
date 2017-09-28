@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Nёrd's</title>
-    <link rel="stylesheet" href="css/style-dist.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
 
@@ -37,13 +37,19 @@
                 <form>
                     <div class="group price">
                         <h5>Стоимость:</h5>
-                        <div class="range">
-                            <input type="range" name="Стоимость" min="1" max="15000" step="1">
-                        </div>
-                        <label for="from">От</label>
-                        <input type="text" placeholder="0" id="from">
-                        <label for="to">До</label>
-                        <input type="text" placeholder="15000" id="to">
+                        <div class="range-filter">
+                          <div class="range-controls">
+                            <div class="scale">
+                                <div class="bar" style="margin-left: 20%; width: 30%"></div>
+                            </div>
+                            <div class="change change-min"></div>
+                            <div class="change change-max"></div>
+                          </div>
+                          <div class="price-controls">
+                            <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+                            <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+                          </div>
+                        </div>  
                     </div>
                     <div class="group radio">
                         <h5>Сетка:</h5>
