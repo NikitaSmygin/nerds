@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Nёrd's</title>
-    <link rel="stylesheet" href="css/style-dist.css">
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
 
@@ -38,54 +38,54 @@
                     <div class="group price">
                         <h5>Стоимость:</h5>
                         <div class="range-filter">
-                          <div class="range-controls">
-                            <div class="scale">
-                                <div class="bar" style="margin-left: 20%; width: 30%"></div>
+                            <div class="range-controls">
+                                <div class="scale">
+                                    <div class="bar" style="margin-left: 20%; width: 30%"></div>
+                                </div>
+                                <div class="change change-min"></div>
+                                <div class="change change-max"></div>
                             </div>
-                            <div class="change change-min"></div>
-                            <div class="change change-max"></div>
-                          </div>
-                          <div class="price-controls">
-                            <label class="min-price">от <input name="min-price" type="text" value="0"></label>
-                            <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
-                          </div>
-                        </div>  
+                            <div class="price-controls">
+                                <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+                                <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+                            </div>
+                        </div>
                     </div>
                     <div class="group radio">
                         <h5>Сетка:</h5>
                         <div class="radio-item">
-                            <input type="radio" name="cell" value="Адаптивная" checked id="adaptive">
-                            <label for="adaptive">Адаптивная</label>
+                            <input type="radio" name="cell" value="Адаптивная" checked id="r1">
+                            <label for="r1">Адаптивная</label>
                         </div>
                         <div class="radio-item">
-                            <input type="radio" name="cell" value="Фиксированная" id="fixed">
-                            <label for="fixed">Фиксированная</label>
+                            <input type="radio" name="cell" value="Фиксированная" id="r2">
+                            <label for="r2">Фиксированная</label>
                         </div>
                         <div class="radio-item">
-                            <input type="radio" name="cell" value="Резиновая" id="flexed">
-                            <label for="flexed">Резиновая</label>
+                            <input type="radio" name="cell" value="Резиновая" id="r3">
+                            <label for="r3">Резиновая</label>
                         </div>
                     </div>
                     <div class="group checkbox">
                         <h5>Особенности:</h5>
                         <div class="ch-group">
-                            <input type="checkbox" checked>
+                            <input type="checkbox" id="ch1" checked>
                             <label for="ch1">Слайдер</label>
                         </div>
                         <div class="ch-group">
-                            <input type="checkbox">
+                            <input type="checkbox" id="ch2">
                             <label for="ch2">Блок преимуществ</label>
                         </div>
                         <div class="ch-group">
-                            <input type="checkbox" checked>
+                            <input type="checkbox" checked id="ch3">
                             <label for="ch3">Новости</label>
                         </div>
                         <div class="ch-group">
-                            <input type="checkbox">
+                            <input type="checkbox" id="ch4">
                             <label for="ch4">Галерея</label>
                         </div>
                         <div class="ch-group">
-                            <input type="checkbox">
+                            <input type="checkbox" id="ch5">
                             <label for="ch5"> Корзина</label>
                         </div>
                     </div>
@@ -129,6 +129,11 @@
                         <div class="title-btn"></div>
                     </div>
                     <img src="images/img-pink.jpg" alt="pink">
+                    <div class="description">
+                        <h2>Pink App</h2>
+                        <p>Продуктовый лендинг приложения для iOS и Android</p>
+                        <button class="button">9900 руб.</button>
+                    </div>
                 </div>
                 <div class="store-item">
                     <div class="title">
@@ -137,6 +142,11 @@
                         <div class="title-btn"></div>
                     </div>
                     <img src="images/img-barbershop.jpg" alt="barbershop">
+                    <div class="description">
+                        <h2>Barbershop</h2>
+                        <p>Сайт салона красоты. Для мужчин, да.</p>
+                        <button class="button">9900 руб.</button>
+                    </div>
                 </div>
                 <div class="store-item">
                     <div class="title">
@@ -145,6 +155,11 @@
                         <div class="title-btn"></div>
                     </div>
                     <img src="images/img-mishka.jpg" alt="mishka">
+                    <div class="description">
+                        <h2>Mishka</h2>
+                        <p>Интернет-магазин вязянных игрушек</p>
+                        <button class="button">9900 руб.</button>
+                    </div>
                 </div>
                 <div class="store-item">
                     <div class="title">
@@ -153,6 +168,11 @@
                         <div class="title-btn"></div>
                     </div>
                     <img src="images/img-aplus.jpg" alt="aplus">
+                    <div class="description">
+                        <h2>A Plus</h2>
+                        <p>Лендинг курсов повышения квалификации</p>
+                        <button class="button">9900 руб.</button>
+                    </div>
                 </div>
                 <div class="store-item">
                     <div class="title">
@@ -161,6 +181,11 @@
                         <div class="title-btn"></div>
                     </div>
                     <img src="images/img-kvast.jpg" alt="kvast">
+                    <div class="description">
+                        <h2>Кваст</h2>
+                        <p>Промо-сайт производителя крафтового кваса</p>
+                        <button class="button">9900 руб.</button>
+                    </div>
                 </div>
                 <div class="more">
                     <ul>
