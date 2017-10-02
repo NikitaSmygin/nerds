@@ -937,14 +937,11 @@ aside {
 	border-radius: 3px;
 	padding: 20px 90px;
 	color: black;
-<<<<<<< HEAD
 }
 .sorting {
 	display: flex;
 	align-items: baseline;
 	justify-content:space-between;
-=======
->>>>>>> 35f6b52f5dd2da9fa55606c70697e82e23f9af9b
 }
 .sorting ul {
 	list-style-type: none;
@@ -1082,12 +1079,9 @@ button.active {
   border-radius: 2px;
   top: 40px;
   color: white;
-<<<<<<< HEAD
-=======
   padding:
   
   
->>>>>>> 35f6b52f5dd2da9fa55606c70697e82e23f9af9b
 }
 .description p {
   padding: 5px 90px;
@@ -1096,16 +1090,12 @@ button.active {
 .description h3 {
   padding: 30px 140px 5px;
 }
-<<<<<<< HEAD
-=======
 .block-2 {
   border-top: 3px solid #eeeeee;
-  }
+}
 .store-item:nth-child(even) {
 	float: right;
 }
-
->>>>>>> 35f6b52f5dd2da9fa55606c70697e82e23f9af9b
 .more ul {
 	margin: 0;
 	padding: 0;
@@ -1275,7 +1265,6 @@ button.active {
 .ch-group input[type="checkbox"]:checked + label::after {
 	content: "";
 }
-<<<<<<< HEAD
 .top-line-flex {
 	display: flex;
 	justify-content: flex-end;
@@ -1288,6 +1277,4 @@ button.active {
 	display: flex;
 	justify-content: space-between;
 }
-=======
 
->>>>>>> 35f6b52f5dd2da9fa55606c70697e82e23f9af9b
