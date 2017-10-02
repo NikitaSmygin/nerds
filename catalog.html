@@ -11,7 +11,7 @@
 <body>
     <header class="main-header">
         <div class="container">
-            <div class="top-line clearfix">
+            <div class="top-line top-line-flex">
                 <a href="index.html" class="logo"><img src="images/logo.png" width="159" height="65" alt="Nёrd's"></a>
                 <nav class="main-menu">
                     <ul>
@@ -31,71 +31,9 @@
 
     <main class="catalog-content">
 
-        <div class="container clearfix">
-
-            <aside class="filter">
-                <form>
-                    <div class="group price">
-                        <h5>Стоимость:</h5>
-                        <div class="range-filter">
-                          <div class="range-controls">
-                            <div class="scale">
-                                <div class="bar" style="margin-left: 20%; width: 30%"></div>
-                            </div>
-                            <div class="change change-min"></div>
-                            <div class="change change-max"></div>
-                          </div>
-                          <div class="price-controls">
-                            <label class="min-price">от <input name="min-price" type="text" value="0"></label>
-                            <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
-                          </div>
-                        </div>  
-                    </div>
-                    <div class="group radio">
-                        <h5>Сетка:</h5>
-                        <div class="radio-item">
-                            <input type="radio" name="cell" value="Адаптивная" checked id="adaptive">
-                            <label for="adaptive">Адаптивная</label>
-                        </div>
-                        <div class="radio-item">
-                            <input type="radio" name="cell" value="Фиксированная" id="fixed">
-                            <label for="fixed">Фиксированная</label>
-                        </div>
-                        <div class="radio-item">
-                            <input type="radio" name="cell" value="Резиновая" id="flexed">
-                            <label for="flexed">Резиновая</label>
-                        </div>
-                    </div>
-                    <div class="group checkbox">
-                        <h5>Особенности:</h5>
-                        <div class="ch-group">
-                            <input type="checkbox" checked>
-                            <label for="ch1">Слайдер</label>
-                        </div>
-                        <div class="ch-group">
-                            <input type="checkbox">
-                            <label for="ch2">Блок преимуществ</label>
-                        </div>
-                        <div class="ch-group">
-                            <input type="checkbox" checked>
-                            <label for="ch3">Новости</label>
-                        </div>
-                        <div class="ch-group">
-                            <input type="checkbox">
-                            <label for="ch4">Галерея</label>
-                        </div>
-                        <div class="ch-group">
-                            <input type="checkbox">
-                            <label for="ch5"> Корзина</label>
-                        </div>
-                    </div>
-                    <div class="submit">
-                        <button type="submit" class="button">Показать</button>
-                    </div>
-                </form>
-            </aside>
-
+        <div class="container">
             <div class="sorting">
+                <h5>Стоимость:</h5>
                 <ul>
                     <li>
                         <h5>Сортировать:</h5>
@@ -107,68 +45,154 @@
                     <li><button><img src="images/icon-up-dir.png" alt="up"></button></li>
                 </ul>
             </div>
-
-            <div class="store clearfix">
-                <div class="store-item">
-                    <div class="title">
-                        <div class="title-btn"></div>
-                        <div class="title-btn"></div>
-                        <div class="title-btn"></div>
+            <div class="flex-container">
+                <aside class="filter">
+                    <form>
+                        <div class="group price">
+                            <div class="range-filter">
+                                <div class="range-controls">
+                                    <div class="scale">
+                                        <div class="bar" style="margin-left: 20%; width: 30%"></div>
+                                    </div>
+                                    <div class="change change-min"></div>
+                                    <div class="change change-max"></div>
+                                </div>
+                                <div class="price-controls">
+                                    <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+                                    <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group radio">
+                            <h5>Сетка:</h5>
+                            <div class="radio-item">
+                                <input type="radio" name="cell" value="Адаптивная" checked id="r1">
+                                <label for="r1">Адаптивная</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" name="cell" value="Фиксированная" id="r2">
+                                <label for="r2">Фиксированная</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" name="cell" value="Резиновая" id="r3">
+                                <label for="r3">Резиновая</label>
+                            </div>
+                        </div>
+                        <div class="group checkbox">
+                            <h5>Особенности:</h5>
+                            <div class="ch-group">
+                                <input type="checkbox" id="ch1" checked>
+                                <label for="ch1">Слайдер</label>
+                            </div>
+                            <div class="ch-group">
+                                <input type="checkbox" id="ch2">
+                                <label for="ch2">Блок преимуществ</label>
+                            </div>
+                            <div class="ch-group">
+                                <input type="checkbox" checked id="ch3">
+                                <label for="ch3">Новости</label>
+                            </div>
+                            <div class="ch-group">
+                                <input type="checkbox" id="ch4">
+                                <label for="ch4">Галерея</label>
+                            </div>
+                            <div class="ch-group">
+                                <input type="checkbox" id="ch5">
+                                <label for="ch5"> Корзина</label>
+                            </div>
+                        </div>
+                        <div class="submit">
+                            <button type="submit" class="button">Показать</button>
+                        </div>
+                    </form>
+                </aside>
+                <div class="store">
+                    <div class="store-item">
+                        <div class="title">
+                            <div class="title-btn"></div>
+                            <div class="title-btn"></div>
+                            <div class="title-btn"></div>
+                        </div>
+                        <img src="images/img-sedona.jpg" alt="sedona">
+                        <div class="description">
+                            <h2>Sedona</h2>
+                            <p>Информационный сайт для туристов</p>
+                            <button class="button">9900 руб.</button>
+                        </div>
                     </div>
-                    <img src="images/img-sedona.jpg" alt="sedona">
-                    <div class="description">
-                        <h2>Sedona</h2>
-                        <p>Информационный сайт для туристов</p>
-                        <button class="button">9900 руб.</button>
+                    <div class="store-item">
+                        <div class="title">
+                            <div class="title-btn"></div>
+                            <div class="title-btn"></div>
+                            <div class="title-btn"></div>
+                        </div>
+                        <img src="images/img-pink.jpg" alt="pink">
+                        <div class="description">
+                            <h2>Pink App</h2>
+                            <p>Продуктовый лендинг приложения для iOS и Android</p>
+                            <button class="button">9900 руб.</button>
+                        </div>
                     </div>
-                </div>
-                <div class="store-item">
-                    <div class="title">
-                        <div class="title-btn"></div>
-                        <div class="title-btn"></div>
-                        <div class="title-btn"></div>
+                    <div class="store-item">
+                        <div class="title">
+                            <div class="title-btn"></div>
+                            <div class="title-btn"></div>
+                            <div class="title-btn"></div>
+                        </div>
+                        <img src="images/img-barbershop.jpg" alt="barbershop">
+                        <div class="description">
+                            <h2>Barbershop</h2>
+                            <p>Сайт салона красоты. Для мужчин, да.</p>
+                            <button class="button">9900 руб.</button>
+                        </div>
                     </div>
-                    <img src="images/img-pink.jpg" alt="pink">
-                </div>
-                <div class="store-item">
-                    <div class="title">
-                        <div class="title-btn"></div>
-                        <div class="title-btn"></div>
-                        <div class="title-btn"></div>
+                    <div class="store-item">
+                        <div class="title">
+                            <div class="title-btn"></div>
+                            <div class="title-btn"></div>
+                            <div class="title-btn"></div>
+                        </div>
+                        <img src="images/img-mishka.jpg" alt="mishka">
+                        <div class="description">
+                            <h2>Mishka</h2>
+                            <p>Интернет-магазин вязянных игрушек</p>
+                            <button class="button">9900 руб.</button>
+                        </div>
                     </div>
-                    <img src="images/img-barbershop.jpg" alt="barbershop">
-                </div>
-                <div class="store-item">
-                    <div class="title">
-                        <div class="title-btn"></div>
-                        <div class="title-btn"></div>
-                        <div class="title-btn"></div>
+                    <div class="store-item">
+                        <div class="title">
+                            <div class="title-btn"></div>
+                            <div class="title-btn"></div>
+                            <div class="title-btn"></div>
+                        </div>
+                        <img src="images/img-aplus.jpg" alt="aplus">
+                        <div class="description">
+                            <h2>A Plus</h2>
+                            <p>Лендинг курсов повышения квалификации</p>
+                            <button class="button">9900 руб.</button>
+                        </div>
                     </div>
-                    <img src="images/img-mishka.jpg" alt="mishka">
-                </div>
-                <div class="store-item">
-                    <div class="title">
-                        <div class="title-btn"></div>
-                        <div class="title-btn"></div>
-                        <div class="title-btn"></div>
+                    <div class="store-item">
+                        <div class="title">
+                            <div class="title-btn"></div>
+                            <div class="title-btn"></div>
+                            <div class="title-btn"></div>
+                        </div>
+                        <img src="images/img-kvast.jpg" alt="kvast">
+                        <div class="description">
+                            <h2>Кваст</h2>
+                            <p>Промо-сайт производителя крафтового кваса</p>
+                            <button class="button">9900 руб.</button>
+                        </div>
                     </div>
-                    <img src="images/img-aplus.jpg" alt="aplus">
-                </div>
-                <div class="store-item">
-                    <div class="title">
-                        <div class="title-btn"></div>
-                        <div class="title-btn"></div>
-                        <div class="title-btn"></div>
+                    <div class="more">
+                        <ul>
+                            <li><a href="#" class="active">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#" class="next"><span>Следующая</span></a></li>
+                        </ul>
                     </div>
-                    <img src="images/img-kvast.jpg" alt="kvast">
-                </div>
-                <div class="more">
-                    <ul>
-                        <li><a href="#" class="active">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#" class="next"><span>Следующая</span></a></li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -191,7 +215,7 @@
     </main>
 
     <footer class="main-footer">
-        <div class="container clearfix">
+        <div class="container social-btn-text-flex">
             <div class="social-btn">
                 <a href="#"><img src="images/vk-icon.png" alt="vk"></a>
                 <a href="#"><img src="images/fb-icon.png" alt="fb"></a>
