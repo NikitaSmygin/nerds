@@ -206,7 +206,7 @@
                         </address>
                         <a href="tel:+78122757575">тел. +7(812)275-75-75</a>
                     </div>
-                    <button class="button">Напишите нам</button>
+                    <button class="button link">Напишите нам</button>
                 </div>
             </div>
         </div>
@@ -227,8 +227,30 @@
             </div>
         </div>
     </footer>
-
-
+    <div class="modal">
+        <div class="write">
+			<div class="form-cap">
+				<h3>Напишите нам</h3>
+				<button type="button" name="button" class="button close">x</button>
+			</div>
+			<form class="write-form">
+				<div class="write-name">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" name="Имя" id="name" placeholder="Представьтесь, пожалуйста" required="" size="30">
+				</div>
+				<div class="write-email">
+                    <label for="email">Ваш e-mail:</label>
+                    <input type="text" name="E-mail" id="email" placeholder="Для отправки ответа" required="" size="30">
+				</div>
+				<div class="write-textarea">
+					<label for="write">Текст письма:</label>
+					<textarea name="name" rows="8" cols="50" id="write" required placeholder="В свободной форме"></textarea>
+				</div>
+				<button class="button-2 button" type="submit">Отправить</button>
+			</form>
+        </div>
+    </div>
+    <script src="js/myscript.js"></script>
 </body>
 
 </html>
