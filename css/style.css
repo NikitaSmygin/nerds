@@ -1382,3 +1382,7 @@ textarea {
   51% { color: rgba(34, 34, 34, 0); }
   100% { color: rgba(34, 34, 34, 0); }
 }
+.write-form input.color,
+.write-form textarea.color {
+	background: rgb(243, 139, 139);
+}
