@@ -1358,3 +1358,27 @@ textarea {
 .open {
 	display: block;
 }
+.write-form span {
+	background: #ffefe9;
+	border: 1px solid #f2ab99;
+	height: 22px;
+	padding: 5px;
+	animation: blink 2s linear infinite;
+	-webkit-animation: blink 2s linear infinite;
+	color: red;
+	font-size: 20px;
+	opacity: 0;
+}
+.write-form span.error {
+	opacity: 1;
+}
+@-webkit-keyframes blink {
+  50% { color: rgb(34, 34, 34); }
+  51% { color: rgba(34, 34, 34, 0); }
+  100% { color: rgba(34, 34, 34, 0); }
+}
+@keyframes blink {
+  50% { color: rgb(34, 34, 34); }
+  51% { color: rgba(34, 34, 34, 0); }
+  100% { color: rgba(34, 34, 34, 0); }
+}
